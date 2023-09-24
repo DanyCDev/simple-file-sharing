@@ -1,0 +1,15 @@
+      <form id="uploadForm" enctype="multipart/form-data" action="/upload" method="post">  
+       <input type="file" name="thefile" required /><br/><br/>  
+       <input type="submit" value="Upload" name="submit" onclick="setCookie()"><br/><br/>  
+      </form>  
+
+<script>
+
+  function setCookie() {
+      document.cookie = "session=0";
+}
+ 
+
+
+</script>
+ 

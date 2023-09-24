@@ -1,0 +1,11 @@
+ <script>
+        function copyText() {
+            navigator.clipboard.writeText
+                ("<%= dom %>/files/<%= rand %>/<%= nam %>");
+        }
+  </script>
+
+<h1>Your file upload is done!</h1>
+<h1> <a href="<%= dom %>/files/<%= rand %>/<%= nam %>"><%= dom %>/files/<%= rand %>/<%= nam %></a> </h1>
+
+<button onclick="copyText()">Copy</button>
